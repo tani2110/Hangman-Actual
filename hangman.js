@@ -64,7 +64,7 @@ function letterPress(event) {
     if (lives === 0) {
       livesElement.textContent = "You Lost :( ";
     } else {
-      livesElement.textContent = `Lives: ${lives}`;
+      livesElement.textContent = `Word is ${wordSelected} :( `;
     }
   }
 }
