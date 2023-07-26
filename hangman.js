@@ -14,7 +14,7 @@ let charArray = [
   "papaya",
   "calculator",
   "mango",
-  " hyderabad",
+  "hyderabad",
   "cake",
 ];
 let wordSelected = charArray[Math.floor(Math.random() * 8)];
