@@ -9,7 +9,7 @@ const alphabetGrid = document.querySelector(".alphabet-grid");
 let guessedLetters = [];
 let charArray = [
   "dolphin",
-  "notebook",
+  "movie",
   "orange",
   "papaya",
   "calculator",
