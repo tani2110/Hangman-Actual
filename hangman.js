@@ -7,7 +7,7 @@ const livesElement = document.querySelector("#lives");
 let lives = 9;
 const alphabetGrid = document.querySelector(".alphabet-grid");
 let guessedLetters = [];
-let charArray = [
+let charArray = [ 
   "dolphin",
   "movie",
   "orange",
