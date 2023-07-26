@@ -62,9 +62,9 @@ function letterPress(event) {
   } else {
     lives--;
     if (lives === 0) {
-      livesElement.textContent = "You Lost :( ";
-    } else {
       livesElement.textContent = `Word is ${wordSelected} :( `;
+    } else {
+      livesElement.textContent = `Lives: ${lives}`;
     }
   }
 }
